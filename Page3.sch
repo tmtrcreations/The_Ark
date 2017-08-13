@@ -1,0 +1,930 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tfp401a
+LIBS:ddr2_sodimm
+LIBS:voltage_reg
+LIBS:uSD_card
+LIBS:batt_charg
+LIBS:spdt_switch
+LIBS:test_point
+LIBS:mounting_point
+LIBS:Pi-Compute-PGS_PCB-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH_SMALL_H SW3
+U 1 1 58A12817
+P 1510 2220
+F 0 "SW3" H 1590 2330 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 1870 2160 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 1510 2420 50  0001 C CNN
+F 3 "" H 1510 2420 50  0000 C CNN
+	1    1510 2220
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW9
+U 1 1 58A12830
+P 1510 3070
+F 0 "SW9" H 1590 3180 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 1870 3010 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 1510 3270 50  0001 C CNN
+F 3 "" H 1510 3270 50  0000 C CNN
+	1    1510 3070
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW5
+U 1 1 58A1286E
+P 1045 2615
+F 0 "SW5" H 1125 2725 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 1405 2555 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 1045 2815 50  0001 C CNN
+F 3 "" H 1045 2815 50  0000 C CNN
+	1    1045 2615
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW6
+U 1 1 58A1289E
+P 1935 2615
+F 0 "SW6" H 2015 2725 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 2295 2555 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 1935 2815 50  0001 C CNN
+F 3 "" H 1935 2815 50  0000 C CNN
+	1    1935 2615
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW8
+U 1 1 58A128D9
+P 8680 2725
+F 0 "SW8" H 8760 2835 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 9040 2665 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 8680 2925 50  0001 C CNN
+F 3 "" H 8680 2925 50  0000 C CNN
+	1    8680 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW4
+U 1 1 58A1295E
+P 9030 2300
+F 0 "SW4" H 9110 2410 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 9390 2240 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 9030 2500 50  0001 C CNN
+F 3 "" H 9030 2500 50  0000 C CNN
+	1    9030 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW12
+U 1 1 58A129FF
+P 8480 4490
+F 0 "SW12" H 8560 4600 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 8840 4430 50  0001 C CNN
+F 2 "Pi-Library:E-SW_SMD" H 8480 4690 50  0001 C CNN
+F 3 "" H 8480 4690 50  0000 C CNN
+	1    8480 4490
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW11
+U 1 1 58A12A3E
+P 8475 4115
+F 0 "SW11" H 8555 4225 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 8835 4055 50  0001 C CNN
+F 2 "Pi-Library:E-SW_SMD" H 8475 4315 50  0001 C CNN
+F 3 "" H 8475 4315 50  0000 C CNN
+	1    8475 4115
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW1
+U 1 1 58A12A8D
+P 2180 665
+F 0 "SW1" H 2260 775 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 2540 605 50  0001 C CNN
+F 2 "Pi-Library:Tact-switch_right_thru_hole" H 2180 865 50  0001 C CNN
+F 3 "" H 2180 865 50  0000 C CNN
+	1    2180 665 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW2
+U 1 1 58A12ADA
+P 8355 665
+F 0 "SW2" H 8435 775 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 8715 605 50  0001 C CNN
+F 2 "Pi-Library:Tact-switch_right_thru_hole" H 8355 865 50  0001 C CNN
+F 3 "" H 8355 865 50  0000 C CNN
+	1    8355 665 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2140 685  8510 685 
+Wire Notes Line
+	8510 685  8510 780 
+Wire Notes Line
+	8510 780  8665 780 
+Wire Notes Line
+	8665 780  8665 875 
+Wire Notes Line
+	8665 875  8825 875 
+Wire Notes Line
+	8825 875  8825 1010
+Wire Notes Line
+	8825 1010 9070 1010
+Wire Notes Line
+	9070 1010 9070 1180
+Wire Notes Line
+	9070 1180 9280 1180
+Wire Notes Line
+	9280 1180 9280 1305
+Wire Notes Line
+	9280 1305 9490 1305
+Wire Notes Line
+	9490 1305 9490 1445
+Wire Notes Line
+	9490 1445 9630 1445
+Wire Notes Line
+	9630 1445 9630 1570
+Wire Notes Line
+	9630 1570 9800 1570
+Wire Notes Line
+	9800 1570 9800 1685
+Wire Notes Line
+	9800 1685 9945 1685
+Wire Notes Line
+	9945 1685 9945 3985
+Wire Notes Line
+	9945 2835 9950 2835
+Wire Notes Line
+	8390 4985 8510 4985
+Wire Notes Line
+	8510 4985 8510 4890
+Wire Notes Line
+	8510 4890 8665 4890
+Wire Notes Line
+	8665 4890 8665 4795
+Wire Notes Line
+	8665 4795 8825 4795
+Wire Notes Line
+	8825 4795 8825 4660
+Wire Notes Line
+	8825 4660 9070 4660
+Wire Notes Line
+	9070 4660 9070 4490
+Wire Notes Line
+	9070 4490 9280 4490
+Wire Notes Line
+	9280 4490 9280 4365
+Wire Notes Line
+	9280 4365 9490 4365
+Wire Notes Line
+	9490 4365 9490 4225
+Wire Notes Line
+	9490 4225 9630 4225
+Wire Notes Line
+	9630 4225 9630 4100
+Wire Notes Line
+	9630 4100 9800 4100
+Wire Notes Line
+	9800 4100 9800 3985
+Wire Notes Line
+	9800 3985 9945 3985
+Wire Notes Line
+	2145 685  2025 685 
+Wire Notes Line
+	2025 685  2025 780 
+Wire Notes Line
+	2025 780  1870 780 
+Wire Notes Line
+	1870 780  1870 875 
+Wire Notes Line
+	1870 875  1710 875 
+Wire Notes Line
+	1710 875  1710 1010
+Wire Notes Line
+	1710 1010 1465 1010
+Wire Notes Line
+	1465 1010 1465 1180
+Wire Notes Line
+	1465 1180 1255 1180
+Wire Notes Line
+	1255 1180 1255 1305
+Wire Notes Line
+	1255 1305 1045 1305
+Wire Notes Line
+	1045 1305 1045 1445
+Wire Notes Line
+	1045 1445 905  1445
+Wire Notes Line
+	905  1445 905  1570
+Wire Notes Line
+	905  1570 735  1570
+Wire Notes Line
+	735  1570 735  1685
+Wire Notes Line
+	735  1685 590  1685
+Wire Notes Line
+	590  1685 590  3985
+Wire Notes Line
+	590  2835 585  2835
+Wire Notes Line
+	2145 4985 2025 4985
+Wire Notes Line
+	2025 4985 2025 4890
+Wire Notes Line
+	2025 4890 1870 4890
+Wire Notes Line
+	1870 4890 1870 4795
+Wire Notes Line
+	1870 4795 1710 4795
+Wire Notes Line
+	1710 4795 1710 4660
+Wire Notes Line
+	1710 4660 1465 4660
+Wire Notes Line
+	1465 4660 1465 4490
+Wire Notes Line
+	1465 4490 1255 4490
+Wire Notes Line
+	1255 4490 1255 4365
+Wire Notes Line
+	1255 4365 1045 4365
+Wire Notes Line
+	1045 4365 1045 4225
+Wire Notes Line
+	1045 4225 905  4225
+Wire Notes Line
+	905  4225 905  4100
+Wire Notes Line
+	905  4100 735  4100
+Wire Notes Line
+	735  4100 735  3985
+Wire Notes Line
+	735  3985 590  3985
+Wire Notes Line
+	2140 685  2140 680 
+Wire Notes Line
+	2095 4985 8465 4985
+$Comp
+L SW_PUSH_SMALL_H SW10
+U 1 1 58A13FCE
+P 9250 3135
+F 0 "SW10" H 9330 3245 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 9610 3075 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 9250 3335 50  0001 C CNN
+F 3 "" H 9250 3335 50  0000 C CNN
+	1    9250 3135
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW7
+U 1 1 58A13FD4
+P 9600 2710
+F 0 "SW7" H 9680 2820 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 9960 2650 50  0001 C CNN
+F 2 "Pi-Library:Snapdome_SW" H 9600 2910 50  0001 C CNN
+F 3 "" H 9600 2910 50  0000 C CNN
+	1    9600 2710
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 2220 0    39   Input ~ 0
+UP_IN
+Wire Wire Line
+	1300 2220 1360 2220
+Text GLabel 835  2615 0    39   Input ~ 0
+LEFT_IN
+Wire Wire Line
+	835  2615 895  2615
+Text GLabel 1300 3070 0    39   Input ~ 0
+DOWN_IN
+Wire Wire Line
+	1300 3070 1360 3070
+Text GLabel 1725 2615 0    39   Input ~ 0
+RIGHT_IN
+Wire Wire Line
+	1725 2615 1785 2615
+Text GLabel 1970 665  0    39   Input ~ 0
+L_BUMP_IN
+Wire Wire Line
+	1970 665  2030 665 
+Text GLabel 8145 665  0    39   Input ~ 0
+R_BUMP_IN
+Wire Wire Line
+	8145 665  8205 665 
+Text GLabel 8820 2300 0    39   Input ~ 0
+Y_IN
+Wire Wire Line
+	8820 2300 8880 2300
+Text GLabel 8470 2725 0    39   Input ~ 0
+X_IN
+Wire Wire Line
+	8470 2725 8530 2725
+Text GLabel 9390 2710 0    39   Input ~ 0
+B_IN
+Wire Wire Line
+	9390 2710 9450 2710
+Text GLabel 9040 3135 0    39   Input ~ 0
+A_IN
+Wire Wire Line
+	9040 3135 9100 3135
+Text GLabel 8265 4115 0    39   Input ~ 0
+START_IN
+Wire Wire Line
+	8265 4115 8325 4115
+Text GLabel 8270 4490 0    39   Input ~ 0
+SELECT_IN
+Wire Wire Line
+	8270 4490 8330 4490
+Text GLabel 8690 4490 2    39   Input ~ 0
+GND
+Wire Wire Line
+	8690 4490 8630 4490
+Text GLabel 8685 4115 2    39   Input ~ 0
+GND
+Wire Wire Line
+	8685 4115 8625 4115
+Text GLabel 9460 3135 2    39   Input ~ 0
+GND
+Wire Wire Line
+	9460 3135 9400 3135
+Text GLabel 9810 2710 2    39   Input ~ 0
+GND
+Wire Wire Line
+	9810 2710 9750 2710
+Text GLabel 8890 2725 2    39   Input ~ 0
+GND
+Wire Wire Line
+	8890 2725 8830 2725
+Text GLabel 9240 2300 2    39   Input ~ 0
+GND
+Wire Wire Line
+	9240 2300 9180 2300
+Text GLabel 8565 665  2    39   Input ~ 0
+GND
+Wire Wire Line
+	8565 665  8505 665 
+Text GLabel 2390 665  2    39   Input ~ 0
+GND
+Wire Wire Line
+	2390 665  2330 665 
+Text GLabel 1720 2220 2    39   Input ~ 0
+GND
+Wire Wire Line
+	1720 2220 1660 2220
+Text GLabel 2145 2615 2    39   Input ~ 0
+GND
+Wire Wire Line
+	2145 2615 2085 2615
+Text GLabel 1720 3070 2    39   Input ~ 0
+GND
+Wire Wire Line
+	1720 3070 1660 3070
+Text GLabel 1255 2615 2    39   Input ~ 0
+GND
+Wire Wire Line
+	1255 2615 1195 2615
+Text GLabel 725  5150 0    39   Input ~ 0
+3V3
+Text GLabel 1295 5150 2    39   Input ~ 0
+UP_IN
+$Comp
+L R_Small R12
+U 1 1 58A1DF81
+P 910 5150
+F 0 "R12" H 940 5170 50  0000 L CNN
+F 1 "10k" H 940 5110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 910 5150 50  0001 C CNN
+F 3 "" H 910 5150 50  0000 C CNN
+	1    910  5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R15
+U 1 1 58A1E00D
+P 1165 5365
+F 0 "R15" H 1195 5385 50  0000 L CNN
+F 1 "1k" H 1195 5325 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1165 5365 50  0001 C CNN
+F 3 "" H 1165 5365 50  0000 C CNN
+	1    1165 5365
+	1    0    0    -1  
+$EndComp
+Text GLabel 1165 5545 3    39   Input ~ 0
+UP
+Wire Wire Line
+	725  5150 810  5150
+Wire Wire Line
+	1010 5150 1295 5150
+Wire Wire Line
+	1165 5265 1165 5150
+Connection ~ 1165 5150
+Wire Wire Line
+	1165 5465 1165 5545
+Text GLabel 725  5780 0    39   Input ~ 0
+3V3
+Text GLabel 1295 5780 2    39   Input ~ 0
+DOWN_IN
+$Comp
+L R_Small R18
+U 1 1 58A1E53F
+P 910 5780
+F 0 "R18" H 940 5800 50  0000 L CNN
+F 1 "10k" H 940 5740 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 910 5780 50  0001 C CNN
+F 3 "" H 910 5780 50  0000 C CNN
+	1    910  5780
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R21
+U 1 1 58A1E545
+P 1165 5995
+F 0 "R21" H 1195 6015 50  0000 L CNN
+F 1 "1k" H 1195 5955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1165 5995 50  0001 C CNN
+F 3 "" H 1165 5995 50  0000 C CNN
+	1    1165 5995
+	1    0    0    -1  
+$EndComp
+Text GLabel 1165 6175 3    39   Input ~ 0
+DOWN
+Wire Wire Line
+	725  5780 810  5780
+Wire Wire Line
+	1010 5780 1295 5780
+Wire Wire Line
+	1165 5895 1165 5780
+Connection ~ 1165 5780
+Wire Wire Line
+	1165 6095 1165 6175
+Text GLabel 725  6410 0    39   Input ~ 0
+3V3
+Text GLabel 1295 6410 2    39   Input ~ 0
+LEFT_IN
+$Comp
+L R_Small R24
+U 1 1 58A1E7B3
+P 910 6410
+F 0 "R24" H 940 6430 50  0000 L CNN
+F 1 "10k" H 940 6370 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 910 6410 50  0001 C CNN
+F 3 "" H 910 6410 50  0000 C CNN
+	1    910  6410
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R27
+U 1 1 58A1E7B9
+P 1165 6625
+F 0 "R27" H 1195 6645 50  0000 L CNN
+F 1 "1k" H 1195 6585 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1165 6625 50  0001 C CNN
+F 3 "" H 1165 6625 50  0000 C CNN
+	1    1165 6625
+	1    0    0    -1  
+$EndComp
+Text GLabel 1165 6805 3    39   Input ~ 0
+LEFT
+Wire Wire Line
+	725  6410 810  6410
+Wire Wire Line
+	1010 6410 1295 6410
+Wire Wire Line
+	1165 6525 1165 6410
+Connection ~ 1165 6410
+Wire Wire Line
+	1165 6725 1165 6805
+Text GLabel 725  7040 0    39   Input ~ 0
+3V3
+Text GLabel 1295 7040 2    39   Input ~ 0
+RIGHT_IN
+$Comp
+L R_Small R30
+U 1 1 58A1E7C7
+P 910 7040
+F 0 "R30" H 940 7060 50  0000 L CNN
+F 1 "10k" H 940 7000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 910 7040 50  0001 C CNN
+F 3 "" H 910 7040 50  0000 C CNN
+	1    910  7040
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R33
+U 1 1 58A1E7CD
+P 1165 7255
+F 0 "R33" H 1195 7275 50  0000 L CNN
+F 1 "1k" H 1195 7215 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1165 7255 50  0001 C CNN
+F 3 "" H 1165 7255 50  0000 C CNN
+	1    1165 7255
+	1    0    0    -1  
+$EndComp
+Text GLabel 1165 7435 3    39   Input ~ 0
+RIGHT
+Wire Wire Line
+	725  7040 810  7040
+Wire Wire Line
+	1010 7040 1295 7040
+Wire Wire Line
+	1165 7155 1165 7040
+Connection ~ 1165 7040
+Wire Wire Line
+	1165 7355 1165 7435
+Text GLabel 1865 5150 0    39   Input ~ 0
+3V3
+Text GLabel 2435 5150 2    39   Input ~ 0
+A_IN
+$Comp
+L R_Small R13
+U 1 1 58A1EE0B
+P 2050 5150
+F 0 "R13" H 2080 5170 50  0000 L CNN
+F 1 "10k" H 2080 5110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2050 5150 50  0001 C CNN
+F 3 "" H 2050 5150 50  0000 C CNN
+	1    2050 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R16
+U 1 1 58A1EE11
+P 2305 5365
+F 0 "R16" H 2335 5385 50  0000 L CNN
+F 1 "1k" H 2335 5325 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2305 5365 50  0001 C CNN
+F 3 "" H 2305 5365 50  0000 C CNN
+	1    2305 5365
+	1    0    0    -1  
+$EndComp
+Text GLabel 2305 5545 3    39   Input ~ 0
+A
+Wire Wire Line
+	1865 5150 1950 5150
+Wire Wire Line
+	2150 5150 2435 5150
+Wire Wire Line
+	2305 5265 2305 5150
+Connection ~ 2305 5150
+Wire Wire Line
+	2305 5465 2305 5545
+Text GLabel 1865 5780 0    39   Input ~ 0
+3V3
+Text GLabel 2435 5780 2    39   Input ~ 0
+B_IN
+$Comp
+L R_Small R19
+U 1 1 58A1EE1F
+P 2050 5780
+F 0 "R19" H 2080 5800 50  0000 L CNN
+F 1 "10k" H 2080 5740 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2050 5780 50  0001 C CNN
+F 3 "" H 2050 5780 50  0000 C CNN
+	1    2050 5780
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R22
+U 1 1 58A1EE25
+P 2305 5995
+F 0 "R22" H 2335 6015 50  0000 L CNN
+F 1 "1k" H 2335 5955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2305 5995 50  0001 C CNN
+F 3 "" H 2305 5995 50  0000 C CNN
+	1    2305 5995
+	1    0    0    -1  
+$EndComp
+Text GLabel 2305 6175 3    39   Input ~ 0
+B
+Wire Wire Line
+	1865 5780 1950 5780
+Wire Wire Line
+	2150 5780 2435 5780
+Wire Wire Line
+	2305 5895 2305 5780
+Connection ~ 2305 5780
+Wire Wire Line
+	2305 6095 2305 6175
+Text GLabel 1865 6410 0    39   Input ~ 0
+3V3
+Text GLabel 2435 6410 2    39   Input ~ 0
+X_IN
+$Comp
+L R_Small R25
+U 1 1 58A1EE33
+P 2050 6410
+F 0 "R25" H 2080 6430 50  0000 L CNN
+F 1 "10k" H 2080 6370 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2050 6410 50  0001 C CNN
+F 3 "" H 2050 6410 50  0000 C CNN
+	1    2050 6410
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R28
+U 1 1 58A1EE39
+P 2305 6625
+F 0 "R28" H 2335 6645 50  0000 L CNN
+F 1 "1k" H 2335 6585 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2305 6625 50  0001 C CNN
+F 3 "" H 2305 6625 50  0000 C CNN
+	1    2305 6625
+	1    0    0    -1  
+$EndComp
+Text GLabel 2305 6805 3    39   Input ~ 0
+X
+Wire Wire Line
+	1865 6410 1950 6410
+Wire Wire Line
+	2150 6410 2435 6410
+Wire Wire Line
+	2305 6525 2305 6410
+Connection ~ 2305 6410
+Wire Wire Line
+	2305 6725 2305 6805
+Text GLabel 1865 7040 0    39   Input ~ 0
+3V3
+Text GLabel 2435 7040 2    39   Input ~ 0
+Y_IN
+$Comp
+L R_Small R31
+U 1 1 58A1EE47
+P 2050 7040
+F 0 "R31" H 2080 7060 50  0000 L CNN
+F 1 "10k" H 2080 7000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2050 7040 50  0001 C CNN
+F 3 "" H 2050 7040 50  0000 C CNN
+	1    2050 7040
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R34
+U 1 1 58A1EE4D
+P 2305 7255
+F 0 "R34" H 2335 7275 50  0000 L CNN
+F 1 "1k" H 2335 7215 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2305 7255 50  0001 C CNN
+F 3 "" H 2305 7255 50  0000 C CNN
+	1    2305 7255
+	1    0    0    -1  
+$EndComp
+Text GLabel 2305 7435 3    39   Input ~ 0
+Y
+Wire Wire Line
+	1865 7040 1950 7040
+Wire Wire Line
+	2150 7040 2435 7040
+Wire Wire Line
+	2305 7155 2305 7040
+Connection ~ 2305 7040
+Wire Wire Line
+	2305 7355 2305 7435
+Text GLabel 3000 5150 0    39   Input ~ 0
+3V3
+Text GLabel 3570 5150 2    39   Input ~ 0
+L_BUMP_IN
+$Comp
+L R_Small R14
+U 1 1 58A1F08B
+P 3185 5150
+F 0 "R14" H 3215 5170 50  0000 L CNN
+F 1 "10k" H 3215 5110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3185 5150 50  0001 C CNN
+F 3 "" H 3185 5150 50  0000 C CNN
+	1    3185 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R17
+U 1 1 58A1F091
+P 3440 5365
+F 0 "R17" H 3470 5385 50  0000 L CNN
+F 1 "1k" H 3470 5325 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3440 5365 50  0001 C CNN
+F 3 "" H 3440 5365 50  0000 C CNN
+	1    3440 5365
+	1    0    0    -1  
+$EndComp
+Text GLabel 3440 5545 3    39   Input ~ 0
+L_BUMP
+Wire Wire Line
+	3000 5150 3085 5150
+Wire Wire Line
+	3285 5150 3570 5150
+Wire Wire Line
+	3440 5265 3440 5150
+Connection ~ 3440 5150
+Wire Wire Line
+	3440 5465 3440 5545
+Text GLabel 3000 5780 0    39   Input ~ 0
+3V3
+Text GLabel 3570 5780 2    39   Input ~ 0
+R_BUMP_IN
+$Comp
+L R_Small R20
+U 1 1 58A1F09F
+P 3185 5780
+F 0 "R20" H 3215 5800 50  0000 L CNN
+F 1 "10k" H 3215 5740 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3185 5780 50  0001 C CNN
+F 3 "" H 3185 5780 50  0000 C CNN
+	1    3185 5780
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R23
+U 1 1 58A1F0A5
+P 3440 5995
+F 0 "R23" H 3470 6015 50  0000 L CNN
+F 1 "1k" H 3470 5955 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3440 5995 50  0001 C CNN
+F 3 "" H 3440 5995 50  0000 C CNN
+	1    3440 5995
+	1    0    0    -1  
+$EndComp
+Text GLabel 3440 6175 3    39   Input ~ 0
+R_BUMP
+Wire Wire Line
+	3000 5780 3085 5780
+Wire Wire Line
+	3285 5780 3570 5780
+Wire Wire Line
+	3440 5895 3440 5780
+Connection ~ 3440 5780
+Wire Wire Line
+	3440 6095 3440 6175
+Text GLabel 3000 6410 0    39   Input ~ 0
+3V3
+Text GLabel 3570 6410 2    39   Input ~ 0
+START_IN
+$Comp
+L R_Small R26
+U 1 1 58A1F0B3
+P 3185 6410
+F 0 "R26" H 3215 6430 50  0000 L CNN
+F 1 "10k" H 3215 6370 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3185 6410 50  0001 C CNN
+F 3 "" H 3185 6410 50  0000 C CNN
+	1    3185 6410
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R29
+U 1 1 58A1F0B9
+P 3440 6625
+F 0 "R29" H 3470 6645 50  0000 L CNN
+F 1 "1k" H 3470 6585 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3440 6625 50  0001 C CNN
+F 3 "" H 3440 6625 50  0000 C CNN
+	1    3440 6625
+	1    0    0    -1  
+$EndComp
+Text GLabel 3440 6805 3    39   Input ~ 0
+START
+Wire Wire Line
+	3000 6410 3085 6410
+Wire Wire Line
+	3285 6410 3570 6410
+Wire Wire Line
+	3440 6525 3440 6410
+Connection ~ 3440 6410
+Wire Wire Line
+	3440 6725 3440 6805
+Text GLabel 3000 7040 0    39   Input ~ 0
+3V3
+Text GLabel 3570 7040 2    39   Input ~ 0
+SELECT_IN
+$Comp
+L R_Small R32
+U 1 1 58A1F0C7
+P 3185 7040
+F 0 "R32" H 3215 7060 50  0000 L CNN
+F 1 "10k" H 3215 7000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3185 7040 50  0001 C CNN
+F 3 "" H 3185 7040 50  0000 C CNN
+	1    3185 7040
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R35
+U 1 1 58A1F0CD
+P 3440 7255
+F 0 "R35" H 3470 7275 50  0000 L CNN
+F 1 "1k" H 3470 7215 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3440 7255 50  0001 C CNN
+F 3 "" H 3440 7255 50  0000 C CNN
+	1    3440 7255
+	1    0    0    -1  
+$EndComp
+Text GLabel 3440 7435 3    39   Input ~ 0
+SELECT
+Wire Wire Line
+	3000 7040 3085 7040
+Wire Wire Line
+	3285 7040 3570 7040
+Wire Wire Line
+	3440 7155 3440 7040
+Connection ~ 3440 7040
+Wire Wire Line
+	3440 7355 3440 7435
+$Comp
+L SW_PUSH_SMALL_H SW13
+U 1 1 58EDD1DA
+P 2810 4630
+F 0 "SW13" H 2890 4740 50  0000 C CNN
+F 1 "SW_PUSH_SMALL_H" H 3170 4570 50  0001 C CNN
+F 2 "Pi-Library:E-SW_SMD" H 2810 4830 50  0001 C CNN
+F 3 "" H 2810 4830 50  0000 C CNN
+	1    2810 4630
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 4630 0    39   Input ~ 0
+HOME_IN
+Wire Wire Line
+	2600 4630 2660 4630
+Text GLabel 3020 4630 2    39   Input ~ 0
+GND
+Wire Wire Line
+	3020 4630 2960 4630
+Text GLabel 4300 7040 0    39   Input ~ 0
+3V3
+Text GLabel 4870 7040 2    39   Input ~ 0
+HOME_IN
+$Comp
+L R_Small R36
+U 1 1 58EDD3BA
+P 4485 7040
+F 0 "R36" H 4515 7060 50  0000 L CNN
+F 1 "10k" H 4515 7000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 4485 7040 50  0001 C CNN
+F 3 "" H 4485 7040 50  0000 C CNN
+	1    4485 7040
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R37
+U 1 1 58EDD3C0
+P 4740 7255
+F 0 "R37" H 4770 7275 50  0000 L CNN
+F 1 "1k" H 4770 7215 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 4740 7255 50  0001 C CNN
+F 3 "" H 4740 7255 50  0000 C CNN
+	1    4740 7255
+	1    0    0    -1  
+$EndComp
+Text GLabel 4740 7435 3    39   Input ~ 0
+HOME
+Wire Wire Line
+	4740 7355 4740 7435
+Wire Wire Line
+	4300 7040 4385 7040
+Wire Wire Line
+	4585 7040 4870 7040
+Wire Wire Line
+	4740 7155 4740 7040
+Connection ~ 4740 7040
+$EndSCHEMATC
