@@ -36,7 +36,6 @@ LIBS:batt_charg
 LIBS:spdt_switch
 LIBS:test_point
 LIBS:mounting_point
-LIBS:Pi-Compute-PGS_PCB-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
