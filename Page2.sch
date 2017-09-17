@@ -36,6 +36,7 @@ LIBS:batt_charg
 LIBS:spdt_switch
 LIBS:test_point
 LIBS:mounting_point
+LIBS:Ark-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -564,4 +565,39 @@ F 3 "" H 9725 920 60  0001 C CNN
 	1    9725 920 
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X06 P4
+U 1 1 59BDD9BA
+P 705 5035
+F 0 "P4" H 705 5385 50  0000 C CNN
+F 1 "6_Pin_Touch_In" V 805 5035 50  0000 C CNN
+F 2 "Pi-Library:Touch_Molex_Connector" H 705 5035 50  0001 C CNN
+F 3 "" H 705 5035 50  0000 C CNN
+	1    705  5035
+	-1   0    0    1   
+$EndComp
+Text GLabel 1060 5285 2    39   Input ~ 0
+3V3
+Text GLabel 1060 5185 2    39   Input ~ 0
+GND
+Text GLabel 1060 5085 2    39   Input ~ 0
+SCL
+Text GLabel 1060 4985 2    39   Input ~ 0
+SDA
+Text GLabel 1060 4885 2    39   Input ~ 0
+INT
+Text GLabel 1060 4785 2    39   Input ~ 0
+RESET
+Wire Wire Line
+	1060 4785 905  4785
+Wire Wire Line
+	1060 4885 905  4885
+Wire Wire Line
+	1060 4985 905  4985
+Wire Wire Line
+	1060 5085 905  5085
+Wire Wire Line
+	1060 5185 905  5185
+Wire Wire Line
+	1060 5285 905  5285
 $EndSCHEMATC

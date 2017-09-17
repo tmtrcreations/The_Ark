@@ -36,6 +36,7 @@ LIBS:batt_charg
 LIBS:spdt_switch
 LIBS:test_point
 LIBS:mounting_point
+LIBS:Ark-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

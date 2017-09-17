@@ -36,6 +36,7 @@ LIBS:batt_charg
 LIBS:spdt_switch
 LIBS:test_point
 LIBS:mounting_point
+LIBS:Ark-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 8500 11000 portrait
@@ -819,20 +820,10 @@ Text GLabel 1065 4340 0    39   Input ~ 0
 R6
 Text GLabel 1065 4415 0    39   Input ~ 0
 R7
-Text GLabel 2175 3965 2    39   Input ~ 0
-R_BUMP
-Text GLabel 2175 3890 2    39   Input ~ 0
-Y
-Text GLabel 2175 3740 2    39   Input ~ 0
-X
 Text GLabel 2175 3665 2    39   Input ~ 0
 B
 Text GLabel 2175 3515 2    39   Input ~ 0
 A
-Text GLabel 2175 3440 2    39   Input ~ 0
-START
-Text GLabel 2175 3290 2    39   Input ~ 0
-SELECT
 Text GLabel 2175 2765 2    39   Input ~ 0
 DOWN
 Text GLabel 2175 2840 2    39   Input ~ 0
@@ -841,8 +832,6 @@ Text GLabel 2175 2990 2    39   Input ~ 0
 LEFT
 Text GLabel 2175 3065 2    39   Input ~ 0
 UP
-Text GLabel 2175 3215 2    39   Input ~ 0
-L_BUMP
 Wire Wire Line
 	1065 965  1170 965 
 Wire Wire Line
@@ -1121,11 +1110,11 @@ Wire Wire Line
 Wire Wire Line
 	2935 4495 2935 4430
 Wire Wire Line
-	2070 4190 2710 4190
+	2070 4190 3025 4190
 Wire Wire Line
 	2710 4190 2710 4230
 Wire Wire Line
-	2070 4115 2935 4115
+	2070 4115 3025 4115
 Wire Wire Line
 	2935 4115 2935 4230
 Wire Wire Line
@@ -1327,16 +1316,6 @@ Wire Wire Line
 Wire Wire Line
 	2070 3665 2175 3665
 Wire Wire Line
-	2070 3740 2175 3740
-Wire Wire Line
-	2070 3890 2175 3890
-Wire Wire Line
-	2070 3965 2175 3965
-Wire Wire Line
-	2070 3290 2175 3290
-Wire Wire Line
-	2070 3440 2175 3440
-Wire Wire Line
 	2070 2765 2175 2765
 Wire Wire Line
 	2070 2840 2175 2840
@@ -1344,12 +1323,6 @@ Wire Wire Line
 	2070 2990 2175 2990
 Wire Wire Line
 	2070 3065 2175 3065
-Wire Wire Line
-	2070 3215 2175 3215
-Text GLabel 2175 2240 2    39   Input ~ 0
-HOME
-Wire Wire Line
-	2070 2240 2175 2240
 $Comp
 L Test_Point PP1
 U 1 1 590292D4
@@ -1383,4 +1356,18 @@ F 3 "" H 7800 2800 60  0001 C CNN
 	1    7800 2800
 	0    1    1    0   
 $EndComp
+Text GLabel 3025 4190 2    39   Input ~ 0
+SCL
+Text GLabel 3025 4115 2    39   Input ~ 0
+SDA
+Connection ~ 2935 4115
+Connection ~ 2710 4190
+Text GLabel 2175 3965 2    39   Input ~ 0
+RESET
+Text GLabel 2175 3890 2    39   Input ~ 0
+INT
+Wire Wire Line
+	2175 3890 2070 3890
+Wire Wire Line
+	2175 3965 2070 3965
 $EndSCHEMATC

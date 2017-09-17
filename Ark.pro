@@ -1,4 +1,4 @@
-update=Thursday, April 27, 2017 'PMt' 08:34:50 PM
+update=Saturday, September 16, 2017 'PMt' 06:50:16 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -76,3 +66,13 @@ LibName34=/Users/michaelriedl/Documents/Projects/Pi-Compute-PGS/Pi-Library/batt_
 LibName35=/Users/michaelriedl/Documents/Projects/Pi-Compute-PGS/Pi-Library/spdt_switch
 LibName36=/Users/michaelriedl/Documents/Projects/Pi-Compute-PGS/Pi-Library/test_point
 LibName37=/Users/michaelriedl/Documents/Projects/Pi-Compute-PGS/Pi-Library/mounting_point
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
