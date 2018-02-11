@@ -6,10 +6,10 @@ Currently powered by the Raspberry Pi Compute Module 3 Lite and The Ark PCB.
 
 https://www.raspberrypi.org/products/compute-module-3-lite/
  
+![alt text](https://github.com/thearkadia/The_Ark/blob/master/front.jpg "The Ark front")
+
 ![alt text](https://github.com/thearkadia/The_Ark/blob/master/01.jpg "The Ark back")
 
-
-![alt text](https://github.com/thearkadia/The_Ark/blob/master/front.jpg "The Ark front")
 
 
 
