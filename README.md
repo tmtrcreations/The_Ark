@@ -1,6 +1,6 @@
 # Democracy's Favorite Device
 
-# This repository consists of PCB design files for a portable computer that makes it easy to participate in a democracy.
+ This repository consists of PCB design files for a portable computer that makes it easy to participate in a democracy.
 
 Currently powered by the Raspberry Pi Compute Module 3 Lite 
 
