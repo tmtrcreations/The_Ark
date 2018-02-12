@@ -8,7 +8,10 @@ https://www.raspberrypi.org/products/compute-module-3-lite/
  
 
 <img src="https://github.com/thearkadia/The_Ark/blob/master/front.jpg" alt="Drawing" style="width: 50%;"/>
-![alt text](https://github.com/thearkadia/The_Ark/blob/master/01.jpg "The Ark back")
+
+<img src="https://github.com/thearkadia/The_Ark/blob/master/01.jpg" alt="Drawing" style="width: 50%;"/>
+
+![alt text]( "The Ark back")
 
 
 
