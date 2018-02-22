@@ -2,7 +2,7 @@
 # http://rpf.io/configtxtreadme
 # Some settings may impact device functionality. See link above for details
 
-#dtoverlay=joypad
+dtoverlay=buttons
 dtoverlay=touchscreen
 dtoverlay=i2c1-bcm2708,sda1_pin=44,scl1_pin=45,pin_func=6
 dtoverlay=dpi24
